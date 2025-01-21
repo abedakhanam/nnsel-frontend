@@ -1,9 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-/* .btn-primary {
-  @apply absolute w-[242px] h-[65px] left-[599px] top-[536px];
-  @apply filter drop-shadow-[0_32px_54px_rgba(3,3,3,0.14)];
-  @apply px-6 py-2 text-white bg-primary rounded-lg hover:bg-blue-600 transition;
-} */

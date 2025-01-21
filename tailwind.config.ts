@@ -10,7 +10,7 @@ export default {
     extend: {
       colors: {
         background: "#1A1A1A",
-        primary: "#485BF9", // Brand Color
+        primary: "#ff9143", // Brand Color
         secondary: {
           dark1: "#CC9966",
           dark2: "#262A2C",
