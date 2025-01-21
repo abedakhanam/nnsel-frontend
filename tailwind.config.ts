@@ -9,8 +9,38 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        background: "#1A1A1A",
+        primary: "#485BF9", // Brand Color
+        secondary: {
+          dark1: "#CC9966",
+          dark2: "#262A2C",
+          grey1: "#130F49",
+          white: "#FFFFFF",
+        },
+        greyscale: {
+          50: "#F9FAFB",
+          100: "#F4F4F6",
+          200: "#E5E6EB",
+          300: "#D3D5DA",
+          400: "#9EA3AE",
+          500: "#6C727F",
+          600: "#4D5461",
+          700: "#394150",
+          800: "#212936",
+          900: "#161D21",
+        },
+      },
+      fontFamily: {
+        syne: ["Syne"],
+        rubik: ["Rubik", "sans-serif"],
+      },
+      fontSize: {
+        h1: "72px",
+        h2: "64px",
+        h3: "56px",
+        h4: "24px",
+        bodyLarge: "18px",
+        bodyMedium: "16px",
       },
     },
   },
